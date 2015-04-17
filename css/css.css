@@ -1,0 +1,19 @@
+﻿.oddRow {
+	background-color: #C0C0C0;
+}
+.evenRow {
+	background-color: #808080;
+}
+.title {
+	background-color: #008080;
+	color: #FFFFFF;
+}
+h4 {
+	color: #008080;
+}
+h3 {
+	color: #10369A;
+}
+.imgthum {
+	clip: rect(200px, auto, auto, auto);
+}

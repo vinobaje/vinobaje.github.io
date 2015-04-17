@@ -1,0 +1,201 @@
+﻿@import url(layout.css);
+body {
+	 background-color:silver;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	
+}
+#container {
+	width: 768px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative; 
+	
+}
+#masthead {
+	text-align: right;
+	width: 100%;
+	background-color: #fff;
+}
+#page_content {
+	position: relative;
+	width: 100%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCAA77;
+}
+#column_l {
+	position: relative;
+	margin: 0 350px 0 0;
+	padding: 0 2%;
+	background-color: #fff;
+	float: none;
+}
+#column_r {
+	float: none;
+	width: 330px;
+	margin: 0;
+	padding: 10px;
+	background-color: #cdf;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#footer {
+	background-color: #33CCFF;
+	padding-bottom: 5px;
+}
+/* Styles for Masthead */
+#masthead img {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#masthead p {
+	font-size: small;
+	text-align: right;
+	color: #000;
+	margin: 10px 10px 10px 0;
+	padding: 0;
+}
+
+/* Styles for Content */
+h1 {
+	font-size: 2em;
+	color: #393939;
+}
+h2 {
+	font-size: 1.75em;
+	color: #469;
+}
+h3 {
+	font-size: 1.5em;
+	color: #469;
+}
+h4 {
+	font-size: 1.25em;
+	color: #469;
+}
+h5 {
+	font-size: 0.75em;
+	color: #469;
+}
+h6 {
+	font-size: 0.5em;
+	color: #469;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: small;
+	text-align: center;
+	color: #393939;
+	margin: 10px;
+	padding: 1px;
+	font-weight: normal;
+}
+#footer a {
+	color: #393939;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #000;
+	text-decoration: none;
+}
+/* Styles for Links */
+#Links a {
+	color: #000;
+	text-decoration: underline;
+}
+#Links a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+#Links .style_bold {
+	font-weight: bold;
+}
+#Links .style_italic {
+	font-style: italic;
+}
+
+
+/* CSS Menu */
+
+#cssmenu {
+	width: auto;
+	height: 50px;
+	padding-bottom: 4px;
+	background-color: #33CCFF;
+	color: #0000;
+	font-weight: bold;
+}
+
+#cssmenu ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+ 
+}
+#cssmenu ul li {
+	font: bold 14px/18px sans-serif;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 15px 20px;
+	background: #33CCFF;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#cssmenu ul li a{
+	color: #fff;
+	text-decoration:none;	
+}
+
+#cssmenu ul li:hover {
+	background: #0f71ba;
+	color: #fff;
+	font-weight: bold;
+}
+#cssmenu ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 190px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+#cssmenu ul li ul li {
+	font: bold 14px/18px sans-serif;
+	background: #33CCFF;
+	display: block;
+	color: #fff;
+}
+#cssmenu ul li ul li:hover {
+	background: #0f71ba;
+	color: #FFFFFF;
+}
+#cssmenu ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
